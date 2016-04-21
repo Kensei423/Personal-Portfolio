@@ -1,0 +1,101 @@
+.navbar {
+  font-size: 25px;
+  font-family: Kaushan Script, sans-serif, serif;
+
+}
+
+#name {
+  font-family: Kaushan Script, sans-serif, serif;
+  color:white;
+}
+
+.container-fluid {
+  background-color: black;
+  padding-top: 51px;
+}
+
+.projects {
+  height: 700px;
+  background-color: #355c7d;
+  color: lightgray;
+}
+
+.projects h3{
+  font-family: Kaushan Script, sans-serif, serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.pull-down{
+margin-top: 30px;
+}
+
+
+.about {
+  height: 600px;
+  background-color: #62bcfa;
+
+}
+
+.about h3 {
+  font-family: Kaushan Script, sans-serif, serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#about-p {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: cursive;, sans-serif, serif;
+}
+
+#circle-pic {
+  margin-top: 5px;
+}
+
+.contact {
+  height: 500px;
+  background-color:#bbc4ef;
+}
+
+.contact h3{
+  font-family: Kaushan Script, sans-serif, serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#contact-right {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: cursive, sans-serif, serif;
+}
+
+.social {
+  height: 300px;
+  background-color: #b9bfcf;
+  overflow-y: hidden; /*come back to this problem */
+}
+
+.social h3 {
+  font-family: Kaushan Script, sans-serif, serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#set-of-icons-1{
+margin-top: 30px;
+}
+
+.social h4{
+  font-size: 30px !important;
+
+  margin-top:70px;
+  margin-left: 90px !important;
+  font-family: cursive, sans-serif, serif;
+}
+
+footer {
+  background-color: #141b15;
+  color:white;
+  font-family: Kaushan Script, sans-serif, serif;
+}

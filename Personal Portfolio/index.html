@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+  <title>Personal Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/hexagons.min.css">
+
+  <link type= "text/css" rel="stylesheet" href="style.css"
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="navbar-static-top.css" rel="stylesheet">
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/hexagons.min.js"></script>
+</head>
+
+<!-- Beginning Body-------------------------------------------------------------------------->
+<body>
+  <!-- Static navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span style="font-size:30px"> Steve Chavez</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Social</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End of Navigation Bar ---------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Begin Container / Content -------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid">
+
+      <!---Gray projects ------------------------------------------------------------->
+      <div class="col-xs-12 projects">
+        <div class="row">
+          <h3 style="text-align:center">Projects </h3>
+
+          <div class="col-xs-4">
+            <img src="images/band1.jpg" class="img-responsive" target="_blank">
+            <p style="text-align:center"> <span style="font-weight:bold"> Band Page </span> </p>
+          </div>
+
+          <div class="col-xs-4">
+            <img src="images/puppet.jpg" class="img-responsive" target="-blank">
+            <p style="text-align:center"> <span style="font-weight:bold"> Puppet Project </span> </p>
+
+          </div>
+
+          <div class="col-xs-4">
+            <img src="images/writeandsing.jpg" class="img-responsive" target="_blank">
+            <p style="text-align:center"><span style="font-weight:bold">  Write and Sing 2.0 </span> </p>
+          </div>
+        </div>
+
+        <!--Next Row  /Gray Projects---------------------------------------------------------------------------->
+        <div class="col-xs-12 projects">
+          <div class="row">
+
+            <div class="col-xs-4 pull-down">
+              <img src="images/jonforeman.jpg" class="img-responsive" target="_blank">
+              <p style="text-align:center"> <span style="font-weight:bold"> Tribute Page </span> </p>
+            </div>
+
+            <div class="col-xs-4 pull-down">
+              <img src="images/writeandsing2.jpg" class="img-responsive" target="_blank">
+              <p style="text-align:center"> <span style="font-weight:bold"> Write and Sing </span>  </p>
+            </div>
+
+            <div class="col-xs-4 pull-down">
+              <img src="images/portfolio.jpg" class="img-responsive" target="_blank">
+              <p style="text-align:center"> <span style="font-weight:bold"> Personal Portfolio </span>  </p>
+            </div>
+
+          </div>
+        </div>
+      </div> <!--Div container close ///// end gray projects------------>
+
+      <!--- Light Blue About -------------------------------------------------------------------------->
+      <div class="col-xs-12 about">
+        <div class="row">
+          <h3 style="text-align:center">About </h3>
+
+          <div id="circle-pic" class="col-xs-4">
+            <img src="images/Steve.jpg" class="img-responsive img-circle">
+          </div>
+
+          <div id="about-p" class="col-xs-6">
+            <p>My name is Steve Chavez and I am in the process of going through Free Code Camp and other avenues to
+              learn different coding languages and frameworks! I'm hoping to gain enough experience to find a job doing
+              front-end work or whatever other doors could possible open.</p><hr><p> I'm also a avid musician who loves to play
+                and write music till my heart's content! On the side I go off on missions as a ninja to take out the bad dudes
+                in the world. </p>
+              </div>
+
+
+            </div>
+          </div>
+          <!--End of Light Blue About --------------------------------------------------------------------------->
+
+
+          <!--- blue Contact------------------------------------------------------------------------------>
+          <div class="col-xs-12 contact">
+            <h3 style="text-align:center"> Contact </h3>
+
+            <!---Contact Form ---->
+            <div class="row">
+              <div class="col-xs-6"> <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Name:</label>
+                  <input type="name" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="comment">Message:</label>
+                  <textarea class="form-control" rows="5" id="comment" placeholder="Leave me a message!"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div> <!--End Contact Form-->
+
+            <div id="contact-right" class="col-xs-5">
+              <p> Contact and leave me a message! If you are looking for a Front-End
+                Developer, you can also reach me at (555)555-5555. Hope to hear from you soon! </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Blue Contact---------------------------------------------------------------------------->
+
+
+          <!--- Social light grey---------------------------------------------------------------------------------->
+          <div class="col-xs-12 social">
+            <h3 style="text-align:center"> Social </h3>
+              <div class="row">
+                <div class="col-xs-6">
+                <h4> Come check out my pages! </h4>
+               </div>
+
+              <div id=set-of-icons-1 class="col-xs-6">
+                <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-facebook"></i></span></a>
+                <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-twitter"></i></span></a>
+                <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-google-plus"></i></span></a>
+                  <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-linkedin-square"></i></span></a>
+                  <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-github-alt"></i></span></a>
+                </div>
+            </div>
+            </div>
+
+
+          <!-- End of Social Light Gray --------------------------------------------------------------------------------->
+        </div>
+        <!-- end of Container Fluid------------------------------------------------------------------------------------------------------------------->
+
+
+        <!-- Footer Footer Footer ------------------------------------------------------------------------------------------------------->
+        <footer>
+          <div>
+            <p style="text-align:center"> Coded and Written by Steve Chavez </p>
+          </div>
+        </footer>
+        <!-- end of Footer ---------------------------------------------------------------------------------------------------------------------->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      </body>
+      </html>
