@@ -1,6 +1,12 @@
+body {
+  background-color: #212121;
+}
+
+
 .navbar {
   font-size: 25px;
   font-family: Kaushan Script, sans-serif, serif;
+  margin-bottom: -40px;
 
 }
 
@@ -24,6 +30,12 @@
   font-family: Kaushan Script, sans-serif, serif;
   font-size: 50px;
   text-decoration: underline;
+
+}
+
+.projects a {
+  text-decoration: none !important;
+  color:lightgray !important;
 }
 
 .pull-down{
@@ -41,6 +53,12 @@ margin-top: 30px;
   font-family: Kaushan Script, sans-serif, serif;
   font-size: 50px;
   text-decoration: underline;
+  margin-top: 50px;
+}
+
+.about a {
+  text-decoration: none !important;
+  color:lightgray !important;
 }
 
 #about-p {
@@ -65,13 +83,13 @@ margin-top: 30px;
 }
 
 #contact-right {
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 18px;
   font-family: cursive, sans-serif, serif;
 }
 
 .social {
-  height: 300px;
+  height: 350px;
   background-color: #b9bfcf;
   overflow-y: hidden; /*come back to this problem */
 }
@@ -88,8 +106,7 @@ margin-top: 30px;
 
 .social h4{
   font-size: 30px !important;
-
-  margin-top:70px;
+  margin-top:55px;
   margin-left: 90px !important;
   font-family: cursive, sans-serif, serif;
 }

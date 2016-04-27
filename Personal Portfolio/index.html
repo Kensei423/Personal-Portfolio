@@ -32,7 +32,7 @@
 <!-- Beginning Body-------------------------------------------------------------------------->
 <body>
   <!-- Static navbar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -41,15 +41,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><span style="font-size:30px"> Steve Chavez</a>
+        <a href="file:///C:/Users/Sting/Desktop/Coding%20Projects/Personal%20Portfolio/index.html"
+                class="navbar-brand" href="#"><span style="font-size:30px"> Steve Chavez</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Social</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#social">Social</a></li>
           </ul>
         </div>
       </div>
@@ -57,147 +58,155 @@
     <!--End of Navigation Bar ---------------------------------------------------------------------------------------------------------------------->
 
     <!-- Begin Container / Content -------------------------------------------------------------------------------------------------------------->
-    <div class="container-fluid">
+    <div class="container">
 
       <!---Gray projects ------------------------------------------------------------->
       <div class="col-xs-12 projects">
         <div class="row">
-          <h3 style="text-align:center">Projects </h3>
+          <a name="#projects" href="#projects">
+          <h3 style="text-align:center">Projects </h3></a>
 
-          <div class="col-xs-4">
-            <img src="images/band1.jpg" class="img-responsive" target="_blank">
-            <p style="text-align:center"> <span style="font-weight:bold"> Band Page </span> </p>
-          </div>
-
-          <div class="col-xs-4">
-            <img src="images/puppet.jpg" class="img-responsive" target="-blank">
-            <p style="text-align:center"> <span style="font-weight:bold"> Puppet Project </span> </p>
-
-          </div>
-
-          <div class="col-xs-4">
-            <img src="images/writeandsing.jpg" class="img-responsive" target="_blank">
-            <p style="text-align:center"><span style="font-weight:bold">  Write and Sing 2.0 </span> </p>
-          </div>
-        </div>
-
-        <!--Next Row  /Gray Projects---------------------------------------------------------------------------->
-        <div class="col-xs-12 projects">
-          <div class="row">
-
-            <div class="col-xs-4 pull-down">
-              <img src="images/jonforeman.jpg" class="img-responsive" target="_blank">
-              <p style="text-align:center"> <span style="font-weight:bold"> Tribute Page </span> </p>
+          <div id="toggle" class="col-xs-4">
+            <a href="https://github.com/Kensei423/Personal-Portfolio" target="_blank">
+              <img src="images/band1.jpg" class="img-responsive">
+              <p style="text-align:center"> <span style="font-weight:bold"> Band Page </span> </p> </a>
             </div>
 
-            <div class="col-xs-4 pull-down">
-              <img src="images/writeandsing2.jpg" class="img-responsive" target="_blank">
-              <p style="text-align:center"> <span style="font-weight:bold"> Write and Sing </span>  </p>
-            </div>
+            <div class="col-xs-4">
+              <a href="https://github.com/Kensei423/Puppet-Video-s-" target="_blank">
+                <img src="images/puppet.jpg" class="img-responsive">
+                <p style="text-align:center"> <span style="font-weight:bold"> Puppet Project </span> </p></a>
 
-            <div class="col-xs-4 pull-down">
-              <img src="images/portfolio.jpg" class="img-responsive" target="_blank">
-              <p style="text-align:center"> <span style="font-weight:bold"> Personal Portfolio </span>  </p>
-            </div>
-
-          </div>
-        </div>
-      </div> <!--Div container close ///// end gray projects------------>
-
-      <!--- Light Blue About -------------------------------------------------------------------------->
-      <div class="col-xs-12 about">
-        <div class="row">
-          <h3 style="text-align:center">About </h3>
-
-          <div id="circle-pic" class="col-xs-4">
-            <img src="images/Steve.jpg" class="img-responsive img-circle">
-          </div>
-
-          <div id="about-p" class="col-xs-6">
-            <p>My name is Steve Chavez and I am in the process of going through Free Code Camp and other avenues to
-              learn different coding languages and frameworks! I'm hoping to gain enough experience to find a job doing
-              front-end work or whatever other doors could possible open.</p><hr><p> I'm also a avid musician who loves to play
-                and write music till my heart's content! On the side I go off on missions as a ninja to take out the bad dudes
-                in the world. </p>
               </div>
 
-
-            </div>
-          </div>
-          <!--End of Light Blue About --------------------------------------------------------------------------->
-
-
-          <!--- blue Contact------------------------------------------------------------------------------>
-          <div class="col-xs-12 contact">
-            <h3 style="text-align:center"> Contact </h3>
-
-            <!---Contact Form ---->
-            <div class="row">
-              <div class="col-xs-6"> <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address:</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              <div class="col-xs-4">
+                <a href="https://github.com/Kensei423/Write-and-Sing-HTML5" target="_blank">
+                  <img src="images/writeandsing.jpg" class="img-responsive">
+                  <p style="text-align:center"><span style="font-weight:bold">  Write and Sing 2.0 </span> </p> </a>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Name:</label>
-                  <input type="name" class="form-control" placeholder="Name">
-                </div>
-                <div class="form-group">
-                  <label for="comment">Message:</label>
-                  <textarea class="form-control" rows="5" id="comment" placeholder="Leave me a message!"></textarea>
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-            </div> <!--End Contact Form-->
-
-            <div id="contact-right" class="col-xs-5">
-              <p> Contact and leave me a message! If you are looking for a Front-End
-                Developer, you can also reach me at (555)555-5555. Hope to hear from you soon! </p>
               </div>
-            </div>
-          </div>
-          <!-- End of Blue Contact---------------------------------------------------------------------------->
+
+              <!--Next Row  /Gray Projects---------------------------------------------------------------------------->
+              <div class="col-xs-12 projects">
+                <div class="row">
+                  <hr>
+                  <div class="col-xs-4 pull-down">
+                    <a href="https://github.com/Kensei423/Tribute-Page" target="_blank">
+                      <img src="images/jonforeman.jpg" class="img-responsive">
+                      <p style="text-align:center"> <span style="font-weight:bold"> Tribute Page </span> </p> </a>
+                    </div>
+
+                    <div class="col-xs-4 pull-down">
+                      <a href="https://github.com/Kensei423/Write-and-Sing-" target="_blank">
+                        <img src="images/writeandsing2.jpg" class="img-responsive">
+                        <p style="text-align:center"> <span style="font-weight:bold"> Write and Sing </span>  </p> </a>
+                      </div>
+
+                      <div class="col-xs-4 pull-down">
+                        <a href="https://github.com/Kensei423/Personal-Portfolio" target="_blank">
+                          <img src="images/portfolio.jpg" class="img-responsive">
+                          <p style="text-align:center"> <span style="font-weight:bold"> Personal Portfolio </span>  </p> </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div> <!--Div container close ///// end gray projects------------>
+
+                  <!--- Light Blue About -------------------------------------------------------------------------->
+                  <div class="col-xs-12 about">
+                    <div class="row">
+                      <a name="#about" href="">
+                      <h3  style="text-align:center">About </h3></a>
+
+                      <div id="circle-pic" class="col-xs-4">
+                        <img src="images/Steve.jpg" class="img-responsive img-circle">
+                      </div>
+
+                      <div id="about-p" class="col-xs-6">
+                        <p>My name is Steve Chavez and I am in the process of going through Free Code Camp and other avenues to
+                          learn different coding languages and frameworks! I'm hoping to gain enough experience to find a job doing
+                          front-end work or whatever other doors could possible open.</p><vl>
+                          </div>
 
 
-          <!--- Social light grey---------------------------------------------------------------------------------->
-          <div class="col-xs-12 social">
-            <h3 style="text-align:center"> Social </h3>
-              <div class="row">
-                <div class="col-xs-6">
-                <h4> Come check out my pages! </h4>
-               </div>
-
-              <div id=set-of-icons-1 class="col-xs-6">
-                <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-facebook"></i></span></a>
-                <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-twitter"></i></span></a>
-                <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-google-plus"></i></span></a>
-                  <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-linkedin-square"></i></span></a>
-                  <a href="#"><span class="hb hb-sm spin-icon"><i class="fa fa-github-alt"></i></span></a>
-                </div>
-            </div>
-            </div>
+                        </div>
+                      </div>
+                      <!--End of Light Blue About --------------------------------------------------------------------------->
 
 
-          <!-- End of Social Light Gray --------------------------------------------------------------------------------->
-        </div>
-        <!-- end of Container Fluid------------------------------------------------------------------------------------------------------------------->
+                      <!--- blue Contact------------------------------------------------------------------------------>
+                      <div class="col-xs-12 contact">
+                        <a name="contact">
+                        <h3 style="text-align:center"> Contact </h3> </a>
+
+                        <!---Contact Form ---->
+                        <div class="row">
+                          <div class="col-xs-6"> <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address:</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Name:</label>
+                              <input type="name" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                              <label for="comment">Message:</label>
+                              <textarea class="form-control" rows="5" id="comment" placeholder="Leave me a message!"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                          </form>
+                        </div> <!--End Contact Form-->
+
+                        <div id="contact-right" class="col-xs-5">
+                          <p> Contact and leave me a message! If you are looking for a Front-End
+                            Developer, you can also reach me at (555)555-5555. Hope to hear from you soon! </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End of Blue Contact---------------------------------------------------------------------------->
 
 
-        <!-- Footer Footer Footer ------------------------------------------------------------------------------------------------------->
-        <footer>
-          <div>
-            <p style="text-align:center"> Coded and Written by Steve Chavez </p>
-          </div>
-        </footer>
-        <!-- end of Footer ---------------------------------------------------------------------------------------------------------------------->
+                      <!--- Social light grey---------------------------------------------------------------------------------->
+                      <div class="col-xs-12 social">
+                        <a name="social">
+                        <h3 style="text-align:center"> Social </h3></a>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <h4> Come check out my pages! </h4>
+                          </div>
 
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-      </body>
-      </html>
+                          <div id=set-of-icons-1 class="col-xs-6">
+                            <a href="https://www.facebook.com/sting423"><span class="hb hb-sm spin-icon"><i class="fa fa-facebook"></i></span></a>
+                            <a href="https://twitter.com/Sting423"><span class="hb hb-sm spin-icon"><i class="fa fa-twitter"></i></span></a>
+                            <a href="https://plus.google.com/u/0/"><span class="hb hb-sm spin-icon"><i class="fa fa-google-plus"></i></span></a>
+                            <a href="https://www.linkedin.com/in/steve-chavez-341a9b11a?trk=nav_responsive_tab_profile"><span class="hb hb-sm spin-icon"><i class="fa fa-linkedin-square"></i></span></a>
+                            <a href="https://github.com/Kensei423?tab=repositories"><span class="hb hb-sm spin-icon"><i class="fa fa-github-alt"></i></span></a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <!-- End of Social Light Gray --------------------------------------------------------------------------------->
+                    </div>
+                    <!-- end of Container Fluid------------------------------------------------------------------------------------------------------------------->
+
+
+                    <!-- Footer Footer Footer ------------------------------------------------------------------------------------------------------->
+                    <footer>
+                      <div>
+                        <p style="text-align:center"> Coded by Steve Chavez </p>
+                      </div>
+                    </footer>
+                    <!-- end of Footer ---------------------------------------------------------------------------------------------------------------------->
+
+                    <!-- Bootstrap core JavaScript
+                    ================================================== -->
+                    <!-- Placed at the end of the document so the pages load faster -->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+                    <script src="js/bootstrap.min.js"></script>
+                    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+                    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+                  </body>
+                  </html>
